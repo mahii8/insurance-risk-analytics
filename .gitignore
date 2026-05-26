@@ -1,0 +1,20 @@
+# Data files — tracked by DVC not Git
+data/
+*.csv
+*.txt
+*.zip
+
+# Virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# DVC cache
+.dvc/cache
+.dvc/tmp
+
+# Environment
+.env
